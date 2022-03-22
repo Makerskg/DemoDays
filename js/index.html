@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!--? Теги это строительные блоки в HTML. Все что можно увидеть на веб-странице и с чем можно взаимодействовать реализовано при помощи тегов HTML. -->
+    <!--? Существует шесть уровней заголовков. Число в названии элемента отражает его приоритет. При этом <h1> самый общий, а <h6> наиболее специфичный. На странице должен быть только один заголовок первого уровня. Такой заголовок должен описывать основную идею содержания страницы -->
+    <!-- ? Заголовки от второго до шестого уровня должны последовательно размещаться на странице и описывать основные моменты содержимого этой страницы -->
+
+    <!-- <h1>Hello world</h1>
+    <h2>Hello world</h2>
+    <h3>Hello world</h3>
+    <h4>Hello world</h4> 
+    <h5>Hello world</h5>
+    <h6>Hello world</h6> -->
+
+    <!-- ? Все HTML элементы делятся на две группы: блочные (block) строчные (inline) -->
+    <!-- ? В данном примере можно увидеть разницу между ними, слова написанные в div находятся на разных строках, так как div является блочным тегом, а слова которые помещены в span находятся на одной строке, так как span является строчным тегом. В итоге вне зависимости от контента блочные теги занимют всю строку, а строчные только то пространство, которое им необходимо -->
+    <!-- <div>Hello</div>
+    <div>world</div>
+    <span>Hello</span>
+    <span>world</span> -->
+
+    <!-- ? для записи какого либо текста, существует тег "p", то есть параграф . Для генерации рандомного текста используют текст рыбу -  lorem. Он является шаблонным текстом для заполнения простраснтва -->
+    <!-- <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti id
+      voluptatum quos optio quas minus consectetur nesciunt, ratione quo
+      repellendus!
+    </p> -->
+
+    <!-- ? Для списков существуют теги маркированного и нумерованного списков.  ul-unordered list-маркированный список, ol-ordered list-нумерованный список. Внутри этих тегов каждый элемент помещают в теги li - то есть list item-->
+    <!-- <ul>
+      <li class="list-item">Task 1</li>
+      <li>Task 2</li>
+    </ul>
+
+    <ol>
+      <li>Task</li>
+      <li>Task</li>
+    </ol> -->
+
+    <!-- ? для получения данных от пользователя используют input, в зависимости от типа инпута меняется тип и вводимой информации  -->
+    <!-- <input type="text" />
+    <input type="password" />
+    <input type="date" />
+    <input type="week" />
+    <input type="time" />
+    <input type="color" /> -->
+
+    <!-- ? для перехода на другую страницу, используют тег ссылки, в его атрибуте href указывают путь на нужную страницу -->
+    <!-- <a href="https://www.youtube.com/">YOUTUBE</a> -->
+
+    <!-- ? тег для размещения изображений является одиночным. В атрибуте src указывается путь до изображения, в атрибуту alt записывают альтернативный текст, который отобразится в случае, если изображение не прогрузится-->
+    <!-- <img
+      src="https://bipbap.ru/wp-content/uploads/2019/07/5555.jpg"
+      alt="img"
+    /> -->
+
+    <!-- ! ======================================landing start======================================= -->
+    <!-- ? Задаем один общий контейнер, в котором будут находится два других : navbar и content -->
+
+    <div class="banner">
+      <!-- ? задаем контейнер навбара -->
+      <div class="navbar">
+        <h2>HOUSEVOP</h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Bedroom</a></li>
+          <li><a href="#">Dining</a></li>
+          <li><a href="#">Kitchen</a></li>
+          <li><a href="#">Backyard</a></li>
+        </ul>
+      </div>
+
+      <!-- ? задаем контейнер контента -->
+      <div class="content">
+        <h1>DESIGN YOUR HOUSE</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+          Ipsam mollitia debitis, est incidunt delectus nisi?
+        </p>
+        <div>
+          <button>
+            <a href="#">WATCH MORE</a>
+          </button>
+          <button>SUBSCRIBE</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
